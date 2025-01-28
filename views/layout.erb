@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>SSE Events</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://cdn.jsdelivr.net/gh/starfederation/datastar@v1.0.0-beta.2/bundles/datastar.js"></script>
+</head>
+<body>
+  <div id="app" data-on-load="@get('/stream', {openWhenHidden: true})">
+    <%= yield %>
+  </div>
+</body>
+</html>
