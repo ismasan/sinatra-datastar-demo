@@ -1,7 +1,10 @@
 <h1>Hello</h1>
-<div id="time">nothing</div>
+<button id="start" data-on-click="@get('/stream', {openWhenHidden: true})">Start</button>
 
-<input data-bind="input" />
-<div data-text="$input">
-  I will get replaced with the contents of the input signal
-</div>
+<button id="toggle" data-on-click="@post('/toggle')">Toggle list</button>
+
+<p id="count" data-bind="count">count is <span data-text="$count">0</span></p>
+
+<div id="time">time...</div>
+
+<div id="list"></div>
