@@ -2,6 +2,10 @@
 
 [Datastar](https://data-star.dev)
 
+
+
+![demo](datastar-demo.gif)
+
 ```
 bundle install
 # run the server
