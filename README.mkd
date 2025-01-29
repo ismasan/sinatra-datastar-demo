@@ -1,0 +1,9 @@
+## Datastar Sinatra
+
+[Datastar](https://data-star.dev)
+
+```
+bundle install
+# run the server
+bundle exec puma
+```
